@@ -6,10 +6,12 @@ from usecase.encryption import EncryptionUsecase
 
 
 
-#TODO: read config file
-private_key = "private_key"
+#TODO: read config file private key should not hard code
+
+
 
 app = FastAPI()
+private_key = "private_key"
 encryption_usecase = EncryptionUsecase(private_key)
 
 

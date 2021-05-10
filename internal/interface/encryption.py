@@ -1,6 +1,6 @@
 from pydantic import BaseModel
-from typing import List
 
+#Interface definition to comunicate with RESTAPI
 
 class DecryptText(BaseModel):
     text:str

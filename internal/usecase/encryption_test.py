@@ -1,5 +1,5 @@
 import unittest
-from internal.usecase.encryption import EncryptionUsecase
+from usecase.encryption import EncryptionUsecase
 
 class TestEncryptionUsecase(unittest.TestCase):
     def test_init_usecase(self):

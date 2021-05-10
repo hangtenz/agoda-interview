@@ -2,3 +2,4 @@ fastapi
 uvicorn
 pyaes
 pydantic
+pbkdf2

@@ -15,6 +15,7 @@ class AESCipher(object):
     def encrypt(self,message):
         aes = pyaes.AESModeOfOperationCTR(self.key, pyaes.Counter(self.init_vector))
         ciphertext = aes.encrypt(message)
+
         return ciphertext.decode(self.coding_method)
 
     def decrypt(self,ciphertext):

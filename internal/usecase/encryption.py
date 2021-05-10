@@ -1,4 +1,4 @@
-from internal.helper.aes import AESCipher
+from helper.aes import AESCipher
 
 
 class EncryptionUsecase(object):
